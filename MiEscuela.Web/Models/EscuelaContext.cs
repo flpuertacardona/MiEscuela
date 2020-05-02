@@ -25,6 +25,7 @@ namespace MiEscuela.Web.Models
 
             // Cargar escuela
             var escuela = new Escuela();
+            escuela.Id = Guid.NewGuid().ToString();
             escuela.Nombre = "Gimansio Los Alcazares";
             escuela.FechaCreacion = 1960;
             escuela.Id = Guid.NewGuid().ToString();
@@ -32,6 +33,7 @@ namespace MiEscuela.Web.Models
             escuela.Pais = Paises.Colombia;
             escuela.Ciudad = Ciudades.Sabaneta;
             escuela.TipoEscuela = TiposEscuela.Secundaria;
+            escuela.Rector = "Mario Alberto Patiño Pardo";
             modelBuilder.Entity<Escuela>().HasData(escuela);
 
             // Cargar cursos

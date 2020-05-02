@@ -10,7 +10,7 @@ namespace MiEscuela.Web.Models
         Mañana=0,
         Tarde = 1,
         Nocturna = 2,
-        FinDeSemana=3,
+        FinDeSemana = 3,
         Mensual = 4
     }
 }

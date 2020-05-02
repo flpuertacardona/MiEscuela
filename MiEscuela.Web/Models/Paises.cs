@@ -7,7 +7,7 @@ namespace MiEscuela.Web.Models
 {
     public enum Paises
     {
-        Colombia=0,
+        Colombia = 0,
         Breazil=1,
         Usa=2,
         Uruguay=3,
